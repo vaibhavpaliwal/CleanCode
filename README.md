@@ -15,7 +15,7 @@ My learnings from clean code book
 
 * It is easy to say that names should reveal intent. Choosing good names takes time but saves more than it takes. So take care with your names and change them when you find better ones. Everyone who reads your code (including you) will be happier if you do.
 
-* Beware of using names which vary in small ways. How long does it take to spot the subtle difference between a XYZControllerForEfficientHandlingOfStrings in one module and, somewhere a little more distant, XYZControllerForEfficientStorageOfStrings? The words have frightfully similar shapes.
+* Beware of using names which vary in small ways. How long does it take to spot the subtle difference between a `XYZControllerForEfficientHandlingOfStrings` in one module and, somewhere a little more distant, `XYZControllerForEfficientStorageOfStrings` The words have frightfully similar shapes.
 
 * Noise words are another meaningless distinction. Imagine that you have a Product class. If you have another called ProductInfo or ProductData, you have made the names different without making them mean anything different. Info and Data are indistinct noise words like a, an, and the.
 
@@ -70,10 +70,10 @@ This does not suffer from verb/adjective confusion but does lead to deeply neste
 
 ## Good Design
 * According to Kent, a design is “simple” if it follows these rules: 
-     ** Runs all the tests (Highest priority. Create systems which can be tested and verified)
-     ** Contains no duplication 
-     ** Expresses the intent of the programmer 
-     ** Minimizes the number of classes and methods
+     1. Runs all the tests (Highest priority. Create systems which can be tested and verified)
+     2. Contains no duplication 
+     3. Expresses the intent of the programmer 
+     4. Minimizes the number of classes and methods
 
 * All too often we get our code working and then move on to the next problem without giving sufficient thought to making that code easy for the next person to read. Remember, the most likely next person to read the code will be you. So take a little pride in your workmanship. Spend a little time with each of your functions and classes. Choose better names, split large functions into smaller functions, and generally just take care of what you’ve created. Care is a precious resource.
 
