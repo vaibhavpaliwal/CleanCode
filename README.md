@@ -1,5 +1,4 @@
-# CleanCode
-My learnings from clean code book
+# My learnings from Clean Code book by Martin fowler
 
 
 ## General
